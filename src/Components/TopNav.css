@@ -1,0 +1,66 @@
+.notscroll {
+  display: flex;
+  flex-direction: row;
+}
+.scrolled {
+  display: flex;
+  background-color:rgba(0, 0,0, 0.70)
+}
+nav {
+  position: sticky;
+  flex-direction: row;
+  top: 0;
+  height: 6rem;
+  width: 100%;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 2;
+  padding: 0.4rem;
+  align-items: center;
+  transition: 0.3s ease-in;
+}
+.leftSide {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-left: 5rem;
+}
+
+img {
+  width: 10rem;
+  height: 2rem;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.links {
+  display: flex;
+  list-style-type: none;
+  gap: 3rem;
+}
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.rightSide {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-right: 4rem;
+}
+button {
+  background-color: red;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+button:focus {
+  outline: none;
+}
+svg {
+  color: white;
+  font-size: 2rem;
+}

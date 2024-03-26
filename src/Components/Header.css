@@ -1,0 +1,25 @@
+.headercontainer{
+display: flex;
+justify-content: space-between;
+align-items: start;
+margin-top: 40px;
+padding-left: 20px;
+padding-right: 20px;
+
+}
+
+.imageClass{
+    height: 3.5rem; /* Adjusted height */
+    width: auto; /* Adjust width as per the original image's aspect ratio */
+    cursor: pointer;
+}
+.button{
+    padding: 0.5rem 1rem;
+    background-color: red;
+    border: none;
+    color:white;
+    cursor:pointer;
+    border-radius: 0.2rem;
+    font-weight: bolder;
+    font-size: 1.05rem;
+}

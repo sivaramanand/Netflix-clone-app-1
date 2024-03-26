@@ -1,0 +1,21 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+video {
+  width: 100vw; /* Make the video fill the container */
+  height: 100vh; /* Make the video fill the container */
+  object-fit: cover; }
+
+.backArrow {
+  position: absolute;
+  padding: 2rem;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.arrow{
+    font-size: 3rem;
+}

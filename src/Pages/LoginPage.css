@@ -1,0 +1,73 @@
+.container {
+  position: relative;
+}
+.loginContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.69);
+  /* grid-template-columns: 15vh 85vh; */
+}
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  height: 85vh;
+}
+.loginform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 70vh;
+  padding: 2rem;
+  color: white;
+  border-radius: 0.4rem;
+}
+
+.logininput {
+    color: black;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    width: 25rem;
+}
+.loginbutton {
+    padding:0.5rem 1rem;
+    background-color: red;
+    color: white;
+    font-size: 1.2rem;
+    width:10rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.h1login{
+  color: white;
+  font-size: 30px;
+
+}
+.h6login{
+  color: white;
+  font-size: 15px;
+}
+.logintitle{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 2rem;
+}
+.logintitleh6{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 0.3rem;
+}

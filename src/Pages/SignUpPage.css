@@ -1,0 +1,72 @@
+.contianer {
+  position: relative;
+}
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.69);
+  grid-template-columns: 15vh 85vh;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+.headingflex{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+}
+.signupform {
+  display: flex;
+  flex-direction: colum;
+  justify-content: center;
+  width: 60%;
+  margin-top: 1.5rem;
+}
+.signupinput {
+  color: black;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  width: 45rem;
+}
+.signupinput:focus {
+  outline: none;
+}
+.signupbutton {
+  padding: 0.5rem 1rem;
+  background-color: red;
+  color: white;
+  font-size: 1.2rem;
+  width: 10rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.h5login {
+  color: white;
+  font-size: 20px;
+}
+
+.logintitleh5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
