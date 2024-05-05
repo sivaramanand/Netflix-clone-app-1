@@ -11,15 +11,15 @@ const LoginPage = () => {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [showError, setShowError] = useState(false); // New state for managing error alert visibility
+  const [showError, setShowError] = useState(false); 
 
   const handleSignIn = async () => {
     try {
       await signInWithEmailAndPassword(firebaseAuth, email, password);
-      setShowError(false); // Reset error state on successful login
+      setShowError(false);
     } catch (error) {
       console.error(error);
-      setShowError(true); // Show error if login fails
+      setShowError(true); 
     }
   };
 
