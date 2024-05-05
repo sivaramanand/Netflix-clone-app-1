@@ -7,10 +7,9 @@ padding-left: 20px;
 padding-right: 20px;
 
 }
-
 .imageClass{
-    height: 3.5rem; /* Adjusted height */
-    width: auto; /* Adjust width as per the original image's aspect ratio */
+    height: 3.5rem; 
+    width: auto;
     cursor: pointer;
 }
 .button{

@@ -5,8 +5,8 @@ html {
 }
 
 video {
-  width: 100vw; /* Make the video fill the container */
-  height: 100vh; /* Make the video fill the container */
+  width: 100vw; 
+  height: 100vh; 
   object-fit: cover; }
 
 .backArrow {

@@ -8,7 +8,6 @@
   height: 100vh;
   width: 100vw;
   background-color: rgba(0, 0, 0, 0.69);
-  /* grid-template-columns: 15vh 85vh; */
 }
 .form-wrapper {
   display: flex;
@@ -25,7 +24,7 @@
   justify-content: center;
   gap: 2rem;
   background-color: rgba(0, 0, 0, 0.6);
-  height: 70vh;
+  height: 90vh;
   padding: 2rem;
   color: white;
   border-radius: 0.4rem;
